@@ -13,7 +13,7 @@ class splash extends StatefulWidget {
 
 class _MyWidgetState extends State<splash> with TickerProviderStateMixin {
   late final AnimationController _controller =
-      AnimationController(duration: const Duration(seconds: 3), vsync: this)
+      AnimationController(duration: const Duration(seconds: 2), vsync: this)
         ..repeat();
   void dispose() {
     super.dispose();
